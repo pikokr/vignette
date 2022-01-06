@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/desktop/Vignette.Desktop./Vignette.Desktop.csproj",
+                "${workspaceFolder}/src/desktop/Vignette.Desktop/Vignette.Desktop.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

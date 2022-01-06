@@ -19,7 +19,7 @@ jobs:
           dotnet-version: '6.0.x'
 
       - name: Test
-        run: dotnet test --logger "trx;LogFileName=TestResults-Vignette.Core.Tests.trx"
+        run: dotnet test Vignette.Universal.slnf --logger "trx;LogFileName=TestResults-Vignette.Core.Tests.trx"
 
       - name: Upload Results
         uses: actions/upload-artifact@v2
